@@ -1,51 +1,61 @@
 # Hi, I'm FAST118 👋
 
-**Open source builder | Multi-AI chain fallback tools**
+**Open source builder | Multi-AI chain fallback tools | 国产化 AI 工具生态**
 
-When Claude / GPT hit rate limits, my projects keep you going with **free** AI backends.
+> When Claude / GPT hit rate limits, my projects keep you going with **free** AI backends.
 
 ---
 
-## 🚀 Featured Project
+## 🛠️ 核心项目
 
-### [free-ai-router](https://github.com/fast118/free-ai-router)
+### 🛡️ [ai-agent-skills](https://github.com/fast118/ai-agent-skills)
+**11 个跨 AI 工具的 Skills 集合** —— Claude Code / Codex / Cursor / OpenClaw / Hermes 通用,装好即用。
 
-> Multi-provider AI chain fallback router — auto-switch to free backends when paid APIs hit rate limits.
-
-**4 free backends, chain fallback, 60s cooldown per failure:**
-
-| Provider | Free Tier | Speed | Models |
-|----------|-----------|-------|--------|
-| **GitHub Models** | Personal account | Medium | gpt-4o, llama-3.3-70b, phi-4, deepseek-r1 |
-| **Google Gemini** | 15 RPM | Fast | gemini-2.0-flash-exp |
-| **Groq** | 30 RPM | **Ultra-fast** | llama-3.3-70b-versatile |
-| **OpenRouter** | `:free` models | Medium | deepseek-chat:free |
-
-**Quick start:**
 ```bash
-git clone https://github.com/fast118/free-ai-router
-cd free-ai-router
-pip install -r requirements.txt
-python smart_router.py "your question"
+git clone https://github.com/fast118/ai-agent-skills
+cd ai-agent-skills/shared/multi-agent-install
+./install-all.sh
 ```
 
-⭐ Star it if useful!
+### 💻 [codex-pp](https://github.com/fast118/codex-pp)
+**国产化 AI 编程 CLI** —— 多模型支持 / 国内直连 / 持久化记忆 / Skill 联动。差异化版本,不抄官方。
+
+```bash
+pip install -e .
+codex-pp ask "你的问题"
+```
+
+### 🖥️ [cc-switch](https://github.com/fast118/cc-switch)
+**国产化 AI 编程工具桌面 GUI 切换器** —— tkinter 零依赖,自动检测 6 个 AI 工具。
+
+```bash
+py -m cc_switch
+```
+
+### 🔀 [free-ai-router](https://github.com/fast118/free-ai-router)
+**多 AI 后端链式 fallback 路由器** —— GitHub Models / Gemini / Groq / OpenRouter,撞限速救星。
+
+### 🌐 [console](https://fast118.github.io/console/)
+**统一控制台** —— 4 个项目 + 1 个 API 业务的总入口。
 
 ---
 
-## 💬 Community
+## 🚀 API 中转(国内直连)
 
-扫码加入微信交流群,讨论 AI 工具、薅羊毛心得、提 issue / 建议:
+**Claude Code 撞限速?试试 [api.skillai.top](https://api.skillai.top):**
 
-![WeChat Group QR](https://github.com/fast118/free-ai-router/raw/main/assets/wechat-qr.png)
+- ✅ Claude / GPT / Gemini / Llama 全模型
+- ✅ 价格低至官方 1/3
+- ✅ 国内直连,无需翻墙
+- ✅ 7×24 稳定
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fast118&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fast118&show_icons=true&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fast118&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fast118&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
@@ -53,7 +63,8 @@ python smart_router.py "your question"
 
 - 💼 GitHub: [@fast118](https://github.com/fast118)
 - 🇨🇳 Gitee: [@wudijia2026](https://gitee.com/wudijia2026)
+- 💬 WeChat 群:见各项目 README
 
 ---
 
-<sub>🤖 This profile is generated. Building tools that solve real AI workflow pain points.</sub>
+<sub>🤖 Building tools that solve real AI workflow pain points. All projects MIT licensed.</sub>
